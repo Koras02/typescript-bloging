@@ -1,0 +1,23 @@
+{
+  "name": "typescript-bloging",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Koras02/typescript-bloging.git",
+  "author": "Koras02 <wjdgh0727@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npx ts-node src/index.ts",
+    "watch": "npx tsc --watch"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.23.0",
+    "@typescript-eslint/parser": "^8.23.0",
+    "eslint": "^9.20.0",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
